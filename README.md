@@ -8,15 +8,13 @@ perform A/B tests and make recommendations backed by computed inferences
 
 ## Project Steps & Research Questions:
 ### Data Wrangling:
-remove duplicates or records with missing or mismatched values
-handle the rows where the landing_page and group columns don't align
+- remove duplicates or records with missing or mismatched values
+- handle the rows where the landing_page and group columns don't align
+
 ### Data Analytics:
-Compute probabilities of converting:
-regardless of page.
-Given that an individual received the treatment
-
-Given that an individual received the control page
-
-Perform Hypothesis Testing and calculate p-values
-
-Conduct Logistic Regression
+- Compute probabilities of converting:
+  - regardless of page.
+  - Given that an individual received the treatment
+  - Given that an individual received the control page
+- Perform Hypothesis Testing and calculate p-values
+- Conduct Logistic Regression 
